@@ -21,10 +21,12 @@ const OldVsNewSection = () => {
           {/* Old SEO World - Google */}
           <div className="bg-graphite/50 backdrop-blur-sm p-8 md:p-10 rounded-xl shadow-xl border border-teal/10 transform transition-all duration-300 hover:shadow-teal/5 hover:-translate-y-1">
             <div className="flex items-center mb-8">
-              <div className="w-14 h-14 mr-5 relative flex items-center justify-center bg-white/10 rounded-lg p-2">
-                <div className="absolute inset-0 bg-contain bg-center bg-no-repeat" 
-                     style={{ backgroundImage: "url('/images/google-logo.png')" }}>
-                </div>
+              <div className="w-14 h-14 mr-5 relative flex items-center justify-center bg-white rounded-lg p-2">
+                <img 
+                  src="/images/google-logo.svg" 
+                  alt="Google logo" 
+                  className="w-full h-full object-contain" 
+                />
               </div>
               <h3 className="font-display text-2xl font-bold uppercase tracking-wide text-soft-white">Traditional SEO World</h3>
             </div>
@@ -149,11 +151,37 @@ const OldVsNewSection = () => {
           </div>
         </div>
         
-        <div className="mt-16 text-center">
-          <div className="inline-block bg-teal/10 backdrop-blur-sm rounded-lg p-6 border border-teal/20 max-w-3xl">
-            <h3 className="font-display text-xl font-semibold mb-3 text-teal">AI HANDSHAKE BRIDGES BOTH WORLDS</h3>
-            <p className="text-soft-white/80">
-              Our technology ensures your content is optimized for both traditional search engines and next-generation AI systems, maximizing your digital visibility across all platforms.
+        <div className="mt-24 mb-16 text-center">
+          <div className="bg-gradient-to-r from-teal/20 via-violet/20 to-teal/20 backdrop-blur-md rounded-xl p-10 border-2 border-teal/30 max-w-4xl mx-auto transform hover:scale-[1.02] transition-all duration-300 shadow-xl">
+            <div className="flex items-center justify-center mb-6">
+              <div className="w-12 h-1 bg-teal mr-4"></div>
+              <h3 className="font-display text-2xl md:text-3xl font-bold tracking-wide text-gradient uppercase">AHP MODULE 2.0 BRIDGES BOTH WORLDS</h3>
+              <div className="w-12 h-1 bg-violet ml-4"></div>
+            </div>
+            
+            <p className="text-soft-white/90 text-lg md:text-xl mb-6 font-light leading-relaxed">
+              We give website owners control, insight, and strategic advantage in how LLMs interact with their content.
+            </p>
+            
+            <div className="flex flex-col md:flex-row justify-center gap-6 mt-8">
+              <div className="bg-charcoal/50 backdrop-blur-sm p-5 rounded-lg border border-teal/20 flex-1 transform transition-all duration-300 hover:shadow-teal/10 hover:-translate-y-1">
+                <h4 className="font-display text-lg font-semibold mb-2 text-teal">PERMISSION ENGINE</h4>
+                <p className="text-soft-white/80">Control how AI systems access and use your valuable content</p>
+              </div>
+              
+              <div className="bg-charcoal/50 backdrop-blur-sm p-5 rounded-lg border border-violet/20 flex-1 transform transition-all duration-300 hover:shadow-violet/10 hover:-translate-y-1">
+                <h4 className="font-display text-lg font-semibold mb-2 text-violet">CRAWLER MONITOR</h4>
+                <p className="text-soft-white/80">Track and analyze how AI systems interact with your website</p>
+              </div>
+              
+              <div className="bg-charcoal/50 backdrop-blur-sm p-5 rounded-lg border border-teal/20 flex-1 transform transition-all duration-300 hover:shadow-teal/10 hover:-translate-y-1">
+                <h4 className="font-display text-lg font-semibold mb-2 text-teal">VISIBILITY OPTIMIZER</h4>
+                <p className="text-soft-white/80">Enhance your content's presence across all AI platforms</p>
+              </div>
+            </div>
+            
+            <p className="text-soft-white/90 mt-8 font-semibold italic">
+              Not just a metadata layer — a live permission engine, crawler monitor, and visibility optimizer.
             </p>
           </div>
         </div>

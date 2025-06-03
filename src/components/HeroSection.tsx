@@ -41,14 +41,13 @@ const HeroSection = () => {
 
   // Handle the cycling of LLM interfaces
   useEffect(() => {
-    if (cycleCompleted) return;
-    
+    // Initialize interval for cycling through LLMs
     const interval = setInterval(() => {
       setCurrentLLMIndex((prevIndex) => {
         const nextIndex = (prevIndex + 1) % llmInterfaces.length;
         
-        // If we've completed a full cycle, show the CTA
-        if (nextIndex === 0 && prevIndex === llmInterfaces.length - 1) {
+        // If we've completed a full cycle, show the CTA but don't stop rotation
+        if (nextIndex === 0 && prevIndex === llmInterfaces.length - 1 && !cycleCompleted) {
           setCycleCompleted(true);
           setTimeout(() => {
             setShowCTA(true);
@@ -57,10 +56,10 @@ const HeroSection = () => {
         
         return nextIndex;
       });
-    }, 5000); // 5 seconds per interface
+    }, 3000); // 3 seconds per interface (changed from 5 seconds)
     
     return () => clearInterval(interval);
-  }, [cycleCompleted]);
+  }, []); // No dependency on cycleCompleted so it continues indefinitely
 
   const currentLLM = llmInterfaces[currentLLMIndex];
 
@@ -114,9 +113,9 @@ const HeroSection = () => {
                 className={`absolute inset-5 transition-all duration-700 rounded-xl overflow-hidden ${index === currentLLMIndex ? 'opacity-100 scale-100 shadow-lg' : 'opacity-0 scale-95'} ${llm.interface}`}
               >
                 <div className="flex items-center mb-6 p-4 border-b border-gray-700/30">
-                  <div className="w-10 h-10 mr-3 bg-teal/10 rounded-full flex items-center justify-center">
-                    {/* Placeholder for logo */}
-                    <span className="font-bold text-teal">{llm.name.charAt(0)}</span>
+                  <div className="w-10 h-10 mr-3 flex items-center justify-center">
+                    {/* Display the actual logo */}
+                    <img src={llm.logo} alt={`${llm.name} logo`} className="w-full h-full object-contain" />
                   </div>
                   <h3 className="font-display font-semibold text-lg tracking-wide">{llm.name}</h3>
                 </div>

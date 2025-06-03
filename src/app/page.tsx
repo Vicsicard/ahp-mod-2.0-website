@@ -22,56 +22,76 @@ export default function Home() {
           <div className="container-custom">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div>
-                <h2 className="heading-lg mb-6">AHP Module as the Solution</h2>
-                <p className="text-lg text-gray-700 mb-6">
-                  The AHP Module 2.0 bridges the gap between traditional SEO and AI-ready content by making your website machine-readable and AI-friendly.
+                <h2 className="heading-lg mb-6 text-teal">What We Do <span className="text-violet">(AHP Module 2.0)</span></h2>
+                <p className="text-lg text-white mb-8">
+                  We make your website <strong className="text-teal">AI-visible</strong>, <strong className="text-violet">AI-citable</strong>, and <strong className="text-teal">semantically optimized</strong> for this new frontier of search.
                 </p>
-                <ul className="space-y-4 mb-8">
+                <ul className="space-y-6 mb-8">
                   <li className="flex items-start">
-                    <div className="bg-teal rounded-full p-1 text-white mr-3 mt-1">
-                      <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                      </svg>
+                    <div className="text-teal text-xl font-bold mr-3">
+                      ✅
                     </div>
-                    <span>Structures your content for AI crawlers</span>
+                    <span className="text-lg text-white">Reveal which AI bots are crawling your site</span>
                   </li>
                   <li className="flex items-start">
-                    <div className="bg-teal rounded-full p-1 text-white mr-3 mt-1">
-                      <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                      </svg>
+                    <div className="text-teal text-xl font-bold mr-3">
+                      ✅
                     </div>
-                    <span>Enhances metadata for machine understanding</span>
+                    <span className="text-lg text-white">Show what metadata they're missing or misinterpreting</span>
                   </li>
                   <li className="flex items-start">
-                    <div className="bg-teal rounded-full p-1 text-white mr-3 mt-1">
-                      <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                      </svg>
+                    <div className="text-teal text-xl font-bold mr-3">
+                      ✅
                     </div>
-                    <span>Provides weekly AI visibility reports</span>
+                    <span className="text-lg text-white">Fix broken authorship, topic, and citation signals</span>
                   </li>
                   <li className="flex items-start">
-                    <div className="bg-teal rounded-full p-1 text-white mr-3 mt-1">
-                      <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                      </svg>
+                    <div className="text-teal text-xl font-bold mr-3">
+                      ✅
                     </div>
-                    <span>Adapts to evolving AI crawler capabilities</span>
+                    <span className="text-lg text-white">Ensure your best content is the <strong className="text-violet">source</strong>, not the footnote</span>
                   </li>
                 </ul>
-                <Link href="/solution" className="btn-primary">
-                  Learn More About the Solution
+                <Link href="/solution" className="btn-primary text-lg px-8 py-4">
+                  Learn More About Our Solution
                 </Link>
               </div>
               
-              <div className="bg-gray-100 p-8 rounded-xl">
-                {/* Placeholder for solution visualization */}
-                <div className="aspect-video bg-white rounded-lg shadow-md p-6 flex items-center justify-center">
-                  <p className="text-center text-gray-500">
-                    Solution visualization placeholder<br />
-                    (Diagram showing how AHP Module works)
+              <div className="bg-gradient-to-br from-charcoal to-graphite p-8 rounded-xl shadow-lg border border-teal/20">
+                <h3 className="text-2xl font-bold text-teal mb-6">Why It Matters</h3>
+                
+                <p className="text-white text-lg mb-6 leading-relaxed">
+                  Our research shows that <span className="flex items-center inline-flex gap-2"><img src="/images/chatgpt-logo.svg" alt="ChatGPT logo" className="h-6 w-6 inline" /> ChatGPT</span> based search results generate <span className="text-teal font-bold">10x more user engagement</span> than traditional <span className="flex items-center inline-flex gap-2"><img src="/images/google-logo.svg" alt="Google logo" className="h-6 w-6 inline" /> Google</span> snippets — but only for sites that are properly embedded in the AI layer.
+                </p>
+                
+                <div className="bg-charcoal/50 backdrop-blur-sm p-6 rounded-lg border border-violet/20 mb-6">
+                  <p className="text-white text-lg italic">
+                    If your competitors are being cited and you're not, you're already losing visibility — whether you know it or not.
                   </p>
+                </div>
+                
+                <div className="flex justify-between items-center mt-8">
+                  <div className="flex items-center gap-4">
+                    <div className="w-16 h-16 bg-white rounded-full p-2 flex items-center justify-center">
+                      <img src="/images/chatgpt-logo.svg" alt="ChatGPT logo" className="h-10 w-10" />
+                    </div>
+                    <div className="text-center">
+                      <p className="text-violet font-bold">10x</p>
+                      <p className="text-white text-sm">Engagement</p>
+                    </div>
+                  </div>
+                  
+                  <div className="text-white text-4xl font-light">vs</div>
+                  
+                  <div className="flex items-center gap-4">
+                    <div className="w-16 h-16 bg-white rounded-full p-2 flex items-center justify-center">
+                      <img src="/images/google-logo.svg" alt="Google logo" className="h-10 w-10" />
+                    </div>
+                    <div className="text-center">
+                      <p className="text-white font-bold">1x</p>
+                      <p className="text-white text-sm">Baseline</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -105,7 +125,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-xl font-bold mb-4">Analyze</h3>
                 <p className="text-gray-700">
-                  The module automatically analyzes your content and enhances it for AI comprehension.
+                  The module automatically scans your content and evaluates its AI readability—highlighting structural gaps, weak metadata, and opportunities for clearer interpretation.
                 </p>
               </div>
               
@@ -115,7 +135,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-xl font-bold mb-4">Monitor</h3>
                 <p className="text-gray-700">
-                  Receive weekly reports on your AI visibility and recommendations for improvement.
+                  Receive weekly reports on your AI visibility and strategic recommendations to improve how your content is understood and cited by AI systems.
                 </p>
               </div>
             </div>
