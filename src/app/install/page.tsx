@@ -137,7 +137,7 @@ export default function InstallPage() {
     }
   }
   </script>
-  <script src="https://cdn.ahpmodule.com/ahp-module-2.0.min.js" data-site-id="bella-pasta" data-api-key="abc123" async></script>
+  <script src="https://aihandshake.org/module/module.js" async></script>
 </head>
 <body>
   <header>

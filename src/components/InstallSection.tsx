@@ -25,7 +25,7 @@ const InstallSection = () => {
                   <h3 className="font-display text-xl font-semibold text-soft-white mb-2">COPY THE CODE SNIPPET</h3>
                   <p className="mb-3 text-soft-white/80">Add the following script to the <code className="bg-charcoal px-2 py-1 rounded font-mono text-teal">&lt;head&gt;</code> of your website:</p>
                   <pre className="bg-charcoal p-5 rounded-lg mt-2 text-teal overflow-x-auto border border-teal/20 font-mono">
-                    &lt;script src="https://cdn.aihandshake.org/ahp-mod-2.0.js" async&gt;&lt;/script&gt;
+                    &lt;script src="https://aihandshake.org/module/module.js" async&gt;&lt;/script&gt;
                   </pre>
                 </div>
               </li>
@@ -129,7 +129,7 @@ const InstallSection = () => {
   <title>Example Website</title>
 
   <!-- ✅ AI HANDSHAKE INSTALLED -->
-  <script src="https://cdn.aihandshake.org/ahp-mod-2.0.js" async></script>
+  <script src="https://aihandshake.org/module/module.js" async></script>
 
 </head>
 <body>

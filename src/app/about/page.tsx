@@ -14,7 +14,7 @@ export default function AboutPage() {
           <div className="container-custom">
             <div className="text-center max-w-3xl mx-auto">
               <h1 className="heading-xl mb-6">About AI Handshake</h1>
-              <p className="text-lg text-gray-700 mb-8">
+              <p className="text-lg text-gray-800 mb-8">
                 We're on a mission to help websites thrive in the new AI-driven search landscape.
               </p>
             </div>
@@ -28,35 +28,35 @@ export default function AboutPage() {
               <h2 className="heading-lg mb-8">Our Story</h2>
               
               <div className="bg-white p-8 rounded-xl shadow-md mb-12">
-                <p className="text-lg text-gray-700 mb-6">
+                <p className="text-lg text-gray-800 mb-6">
                   AI Handshake was born out of a simple observation: as AI systems increasingly mediate how people find information online, websites needed a new approach to ensure their content is properly understood and referenced by these systems.
                 </p>
                 
                 <div className="space-y-6">
                   <div>
                     <h3 className="text-xl font-bold mb-3">The Beginning</h3>
-                    <p className="text-gray-700">
+                    <p className="text-gray-800">
                       In early 2023, our founder, a veteran SEO professional with over 15 years of experience, noticed a troubling trend. Websites that had excellent traditional SEO were being overlooked in AI-generated answers, while less optimized sites with clearer entity relationships were being featured prominently.
                     </p>
                   </div>
                   
                   <div>
                     <h3 className="text-xl font-bold mb-3">The Realization</h3>
-                    <p className="text-gray-700">
+                    <p className="text-gray-800">
                       After months of research and testing, we discovered that AI systems understand and process web content fundamentally differently than traditional search engines. While traditional SEO focused on keywords and backlinks, AI systems prioritize structured data, entity relationships, and semantic context.
                     </p>
                   </div>
                   
                   <div>
                     <h3 className="text-xl font-bold mb-3">The Solution</h3>
-                    <p className="text-gray-700">
+                    <p className="text-gray-800">
                       We developed the AHP Module 1.0 as a proof of concept, helping a small group of websites restructure their content for AI comprehension. The results were remarkable – these sites saw a 300% increase in appearances within AI-generated answers within just 60 days.
                     </p>
                   </div>
                   
                   <div>
                     <h3 className="text-xl font-bold mb-3">Today</h3>
-                    <p className="text-gray-700">
+                    <p className="text-gray-800">
                       With the launch of AHP Module 2.0, we've refined our technology to work with all major AI systems and provide detailed analytics on how AI crawlers interpret your content. Our mission is to help every website thrive in this new era of AI-mediated search.
                     </p>
                   </div>
@@ -66,46 +66,7 @@ export default function AboutPage() {
           </div>
         </section>
         
-        {/* Our Team */}
-        <section className="bg-gray-50 section-padding">
-          <div className="container-custom">
-            <div className="text-center mb-16">
-              <h2 className="heading-lg mb-6">Meet Our Team</h2>
-              <p className="text-lg text-gray-700 max-w-3xl mx-auto">
-                We're a diverse group of SEO experts, data scientists, and developers passionate about helping websites succeed in the AI era.
-              </p>
-            </div>
-            
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-              <div className="bg-white p-6 rounded-xl shadow-md text-center">
-                <div className="w-32 h-32 bg-gray-200 rounded-full mx-auto mb-4"></div>
-                <h3 className="text-xl font-bold mb-1">Alex Rodriguez</h3>
-                <p className="text-gray-600 mb-4">Founder & CEO</p>
-                <p className="text-gray-700">
-                  15+ years in SEO and digital marketing. Previously led SEO teams at major tech companies before founding AHP Module.
-                </p>
-              </div>
-              
-              <div className="bg-white p-6 rounded-xl shadow-md text-center">
-                <div className="w-32 h-32 bg-gray-200 rounded-full mx-auto mb-4"></div>
-                <h3 className="text-xl font-bold mb-1">Dr. Priya Sharma</h3>
-                <p className="text-gray-600 mb-4">Chief Data Scientist</p>
-                <p className="text-gray-700">
-                  PhD in Machine Learning with expertise in natural language processing and how AI systems interpret web content.
-                </p>
-              </div>
-              
-              <div className="bg-white p-6 rounded-xl shadow-md text-center">
-                <div className="w-32 h-32 bg-gray-200 rounded-full mx-auto mb-4"></div>
-                <h3 className="text-xl font-bold mb-1">Marcus Chen</h3>
-                <p className="text-gray-600 mb-4">Lead Developer</p>
-                <p className="text-gray-700">
-                  Full-stack developer with a passion for creating tools that bridge the gap between websites and AI systems.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
+        {/* Team section removed as requested */}
         
         {/* Our Values */}
         <section className="section-padding">
@@ -121,7 +82,7 @@ export default function AboutPage() {
                     </svg>
                   </div>
                   <h3 className="text-xl font-bold mb-3">Innovation</h3>
-                  <p className="text-gray-700">
+                  <p className="text-gray-800">
                     We're constantly researching how AI systems evolve and updating our technology to ensure your website stays ahead of the curve in AI visibility.
                   </p>
                 </div>
@@ -133,7 +94,7 @@ export default function AboutPage() {
                     </svg>
                   </div>
                   <h3 className="text-xl font-bold mb-3">Transparency</h3>
-                  <p className="text-gray-700">
+                  <p className="text-gray-800">
                     We believe in clear communication about how AI systems work and how our module helps. No black boxes or magic promises – just data-driven results.
                   </p>
                 </div>
@@ -145,7 +106,7 @@ export default function AboutPage() {
                     </svg>
                   </div>
                   <h3 className="text-xl font-bold mb-3">Customer Success</h3>
-                  <p className="text-gray-700">
+                  <p className="text-gray-800">
                     Your success is our success. We're committed to providing not just technology, but the support and guidance needed to maximize your AI visibility.
                   </p>
                 </div>
@@ -157,7 +118,7 @@ export default function AboutPage() {
                     </svg>
                   </div>
                   <h3 className="text-xl font-bold mb-3">Continuous Improvement</h3>
-                  <p className="text-gray-700">
+                  <p className="text-gray-800">
                     We're constantly refining our technology based on real-world results and feedback from our users to deliver ever-improving AI visibility.
                   </p>
                 </div>
@@ -173,7 +134,7 @@ export default function AboutPage() {
               <h2 className="heading-lg mb-8">Our Approach to AI Visibility</h2>
               
               <div className="bg-white p-8 rounded-xl shadow-md">
-                <p className="text-lg text-gray-700 mb-8">
+                <p className="text-lg text-gray-800 mb-8">
                   Unlike traditional SEO tools that focus on keywords and backlinks, our approach is built around how AI systems actually process and understand web content.
                 </p>
                 
@@ -186,7 +147,7 @@ export default function AboutPage() {
                     </div>
                     <div className="md:w-3/4">
                       <h3 className="text-xl font-bold mb-3">Entity-First Thinking</h3>
-                      <p className="text-gray-700">
+                      <p className="text-gray-800">
                         We focus on clearly defining the entities on your website (your business, products, services, etc.) and their relationships to each other. This is how AI systems build their understanding of your content.
                       </p>
                     </div>
@@ -200,7 +161,7 @@ export default function AboutPage() {
                     </div>
                     <div className="md:w-3/4">
                       <h3 className="text-xl font-bold mb-3">Structured Data Enhancement</h3>
-                      <p className="text-gray-700">
+                      <p className="text-gray-800">
                         We implement comprehensive Schema.org markup that goes beyond basic SEO requirements to provide AI systems with the detailed, structured information they need.
                       </p>
                     </div>
@@ -214,7 +175,7 @@ export default function AboutPage() {
                     </div>
                     <div className="md:w-3/4">
                       <h3 className="text-xl font-bold mb-3">Content Context Optimization</h3>
-                      <p className="text-gray-700">
+                      <p className="text-gray-800">
                         We help AI systems understand not just what your content says, but what it means in context – the problems it solves, the questions it answers, and its relevance to user queries.
                       </p>
                     </div>
@@ -228,7 +189,7 @@ export default function AboutPage() {
                     </div>
                     <div className="md:w-3/4">
                       <h3 className="text-xl font-bold mb-3">Continuous Monitoring & Adaptation</h3>
-                      <p className="text-gray-700">
+                      <p className="text-gray-800">
                         As AI systems evolve, so does our module. We continuously monitor how AI crawlers interact with your site and adapt our approach to ensure optimal visibility.
                       </p>
                     </div>
@@ -253,12 +214,12 @@ export default function AboutPage() {
                     <div className="flex items-start">
                       <div className="text-primary mr-3">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                         </svg>
                       </div>
                       <div>
                         <p className="font-medium">Email</p>
-                        <p className="text-gray-700">support@ahpmodule.com</p>
+                        <p className="text-gray-800">support@ahpmodule.com</p>
                       </div>
                     </div>
                     
@@ -270,7 +231,7 @@ export default function AboutPage() {
                       </div>
                       <div>
                         <p className="font-medium">Phone</p>
-                        <p className="text-gray-700">(555) 123-4567</p>
+                        <p className="text-gray-800">(555) 123-4567</p>
                       </div>
                     </div>
                     
@@ -283,7 +244,7 @@ export default function AboutPage() {
                       </div>
                       <div>
                         <p className="font-medium">Address</p>
-                        <p className="text-gray-700">
+                        <p className="text-gray-800">
                           123 Tech Avenue<br />
                           San Francisco, CA 94107
                         </p>
@@ -302,7 +263,7 @@ export default function AboutPage() {
                           <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
                         </svg>
                       </div>
-                      <p className="text-gray-700">@AHPModule</p>
+                      <p className="text-gray-800">@AHPModule</p>
                     </div>
                     
                     <div className="flex items-center">
@@ -311,7 +272,7 @@ export default function AboutPage() {
                           <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 16h-2v-6h2v6zm-1-6.891c-.607 0-1.1-.496-1.1-1.109 0-.612.492-1.109 1.1-1.109s1.1.497 1.1 1.109c0 .613-.493 1.109-1.1 1.109zm8 6.891h-1.998v-2.861c0-1.881-2.002-1.722-2.002 0v2.861h-2v-6h2v1.093c.872-1.616 4-1.736 4 1.548v3.359z" />
                         </svg>
                       </div>
-                      <p className="text-gray-700">LinkedIn/AHPModule</p>
+                      <p className="text-gray-800">LinkedIn/AHPModule</p>
                     </div>
                     
                     <div className="flex items-center">
@@ -320,13 +281,13 @@ export default function AboutPage() {
                           <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
                         </svg>
                       </div>
-                      <p className="text-gray-700">GitHub/AHPModule</p>
+                      <p className="text-gray-800">GitHub/AHPModule</p>
                     </div>
                   </div>
                   
                   <div className="mt-6">
                     <h3 className="text-xl font-bold mb-4">Newsletter</h3>
-                    <p className="text-gray-700 mb-4">
+                    <p className="text-gray-800 mb-4">
                       Subscribe to our newsletter for the latest updates on AI SEO trends and product news.
                     </p>
                     <div className="flex">
