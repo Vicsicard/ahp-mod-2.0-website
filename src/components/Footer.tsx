@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <footer className="bg-gradient-to-b from-charcoal to-graphite text-soft-white border-t border-teal/10">
       <div className="container-custom py-16">
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-10">
           <div className="col-span-1 md:col-span-5">
             <Link href="/" className="inline-block mb-6 transform transition-transform duration-300 hover:scale-105">
               <Image 
@@ -20,11 +20,11 @@ const Footer = () => {
                 className="h-10 w-auto"
               />
             </Link>
-            <p className="text-soft-white/80 mt-4 max-w-md font-light leading-relaxed">
+            <p className="text-soft-white mt-4 max-w-md font-light leading-relaxed">
               Make your site AI-ready. Ensure your content is structured for GenAI comprehension and become part of the answer.
             </p>
             <div className="mt-8 flex space-x-5">
-              <a href="#" className="text-soft-white/70 hover:text-teal transition-all duration-300 transform hover:scale-110">
+              <a href="#" className="text-soft-white/90 hover:text-teal transition-all duration-300 transform hover:scale-110">
                 <span className="sr-only">Twitter</span>
                 <div className="w-9 h-9 rounded-full bg-teal/10 flex items-center justify-center">
                   <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -32,7 +32,7 @@ const Footer = () => {
                   </svg>
                 </div>
               </a>
-              <a href="#" className="text-soft-white/70 hover:text-teal transition-all duration-300 transform hover:scale-110">
+              <a href="#" className="text-soft-white/90 hover:text-teal transition-all duration-300 transform hover:scale-110">
                 <span className="sr-only">GitHub</span>
                 <div className="w-9 h-9 rounded-full bg-teal/10 flex items-center justify-center">
                   <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -40,7 +40,7 @@ const Footer = () => {
                   </svg>
                 </div>
               </a>
-              <a href="#" className="text-soft-white/70 hover:text-teal transition-all duration-300 transform hover:scale-110">
+              <a href="#" className="text-soft-white/90 hover:text-teal transition-all duration-300 transform hover:scale-110">
                 <span className="sr-only">LinkedIn</span>
                 <div className="w-9 h-9 rounded-full bg-teal/10 flex items-center justify-center">
                   <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -55,31 +55,31 @@ const Footer = () => {
             <h3 className="font-display text-sm font-semibold mb-5 uppercase tracking-wider text-teal">Quick Links</h3>
             <ul className="space-y-3">
               <li>
-                <Link href="/" className="text-soft-white/80 hover:text-teal transition-all duration-300 text-sm relative group">
+                <Link href="/" className="text-soft-white hover:text-teal transition-all duration-300 text-sm relative group">
                   <span className="relative inline-block">HOME</span>
                   <span className="absolute -bottom-1 left-0 w-0 h-px bg-teal/50 transition-all duration-300 group-hover:w-full"></span>
                 </Link>
               </li>
               <li>
-                <Link href="/solution" className="text-soft-white/80 hover:text-teal transition-all duration-300 text-sm relative group">
+                <Link href="/solution" className="text-soft-white hover:text-teal transition-all duration-300 text-sm relative group">
                   <span className="relative inline-block">SOLUTION</span>
                   <span className="absolute -bottom-1 left-0 w-0 h-px bg-teal/50 transition-all duration-300 group-hover:w-full"></span>
                 </Link>
               </li>
               <li>
-                <Link href="/report-preview" className="text-soft-white/80 hover:text-teal transition-all duration-300 text-sm relative group">
+                <Link href="/report-preview" className="text-soft-white hover:text-teal transition-all duration-300 text-sm relative group">
                   <span className="relative inline-block">REPORT PREVIEW</span>
                   <span className="absolute -bottom-1 left-0 w-0 h-px bg-teal/50 transition-all duration-300 group-hover:w-full"></span>
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="text-soft-white/80 hover:text-teal transition-all duration-300 text-sm relative group">
+                <Link href="/about" className="text-soft-white hover:text-teal transition-all duration-300 text-sm relative group">
                   <span className="relative inline-block">ABOUT</span>
                   <span className="absolute -bottom-1 left-0 w-0 h-px bg-teal/50 transition-all duration-300 group-hover:w-full"></span>
                 </Link>
               </li>
               <li>
-                <Link href="/changelog" className="text-soft-white/80 hover:text-teal transition-all duration-300 text-sm relative group">
+                <Link href="/changelog" className="text-soft-white hover:text-teal transition-all duration-300 text-sm relative group">
                   <span className="relative inline-block">CHANGELOG</span>
                   <span className="absolute -bottom-1 left-0 w-0 h-px bg-teal/50 transition-all duration-300 group-hover:w-full"></span>
                 </Link>
@@ -91,25 +91,25 @@ const Footer = () => {
             <h3 className="font-display text-sm font-semibold mb-5 uppercase tracking-wider text-teal">Support</h3>
             <ul className="space-y-3">
               <li>
-                <Link href="/install" className="text-soft-white/80 hover:text-teal transition-all duration-300 text-sm relative group">
+                <Link href="/install" className="text-soft-white hover:text-teal transition-all duration-300 text-sm relative group">
                   <span className="relative inline-block">INSTALLATION GUIDE</span>
                   <span className="absolute -bottom-1 left-0 w-0 h-px bg-teal/50 transition-all duration-300 group-hover:w-full"></span>
                 </Link>
               </li>
               <li>
-                <Link href="/support" className="text-soft-white/80 hover:text-teal transition-all duration-300 text-sm relative group">
+                <Link href="/support" className="text-soft-white hover:text-teal transition-all duration-300 text-sm relative group">
                   <span className="relative inline-block">HELP CENTER</span>
                   <span className="absolute -bottom-1 left-0 w-0 h-px bg-teal/50 transition-all duration-300 group-hover:w-full"></span>
                 </Link>
               </li>
               <li>
-                <Link href="/privacy" className="text-soft-white/80 hover:text-teal transition-all duration-300 text-sm relative group">
+                <Link href="/privacy" className="text-soft-white hover:text-teal transition-all duration-300 text-sm relative group">
                   <span className="relative inline-block">PRIVACY POLICY</span>
                   <span className="absolute -bottom-1 left-0 w-0 h-px bg-teal/50 transition-all duration-300 group-hover:w-full"></span>
                 </Link>
               </li>
               <li>
-                <Link href="/terms" className="text-soft-white/80 hover:text-teal transition-all duration-300 text-sm relative group">
+                <Link href="/terms" className="text-soft-white hover:text-teal transition-all duration-300 text-sm relative group">
                   <span className="relative inline-block">TERMS OF SERVICE</span>
                   <span className="absolute -bottom-1 left-0 w-0 h-px bg-teal/50 transition-all duration-300 group-hover:w-full"></span>
                 </Link>
@@ -119,7 +119,7 @@ const Footer = () => {
 
           <div className="col-span-1 md:col-span-3">
             <h3 className="font-display text-sm font-semibold mb-5 uppercase tracking-wider text-teal">Subscribe</h3>
-            <p className="text-soft-white/80 text-sm mb-4">Stay updated with our latest features and releases</p>
+            <p className="text-soft-white text-sm mb-4">Stay updated with our latest features and releases</p>
             <form className="flex flex-col sm:flex-row gap-3">
               <div className="relative flex-grow">
                 <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
@@ -147,10 +147,10 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-teal/10 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-soft-white/70 text-sm font-mono">
+          <p className="text-soft-white/90 text-sm font-mono">
             &copy; {currentYear} AHP Module 2.0. All rights reserved.
           </p>
-          <p className="text-soft-white/70 text-sm mt-4 md:mt-0 font-mono">
+          <p className="text-soft-white/90 text-sm mt-4 md:mt-0 font-mono">
             Designed with <span className="text-teal">♥</span> for the future of AI handshake
           </p>
         </div>

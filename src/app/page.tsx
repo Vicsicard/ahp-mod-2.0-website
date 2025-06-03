@@ -28,7 +28,7 @@ export default function Home() {
                 </p>
                 <ul className="space-y-4 mb-8">
                   <li className="flex items-start">
-                    <div className="bg-primary rounded-full p-1 text-white mr-3 mt-1">
+                    <div className="bg-teal rounded-full p-1 text-white mr-3 mt-1">
                       <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
@@ -36,7 +36,7 @@ export default function Home() {
                     <span>Structures your content for AI crawlers</span>
                   </li>
                   <li className="flex items-start">
-                    <div className="bg-primary rounded-full p-1 text-white mr-3 mt-1">
+                    <div className="bg-teal rounded-full p-1 text-white mr-3 mt-1">
                       <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
@@ -44,7 +44,7 @@ export default function Home() {
                     <span>Enhances metadata for machine understanding</span>
                   </li>
                   <li className="flex items-start">
-                    <div className="bg-primary rounded-full p-1 text-white mr-3 mt-1">
+                    <div className="bg-teal rounded-full p-1 text-white mr-3 mt-1">
                       <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
@@ -52,7 +52,7 @@ export default function Home() {
                     <span>Provides weekly AI visibility reports</span>
                   </li>
                   <li className="flex items-start">
-                    <div className="bg-primary rounded-full p-1 text-white mr-3 mt-1">
+                    <div className="bg-teal rounded-full p-1 text-white mr-3 mt-1">
                       <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
@@ -90,8 +90,8 @@ export default function Home() {
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="bg-white p-8 rounded-xl shadow-md text-center">
-                <div className="bg-primary bg-opacity-10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <span className="text-primary text-2xl font-bold">1</span>
+                <div className="bg-teal bg-opacity-10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <span className="text-teal text-2xl font-bold">1</span>
                 </div>
                 <h3 className="text-xl font-bold mb-4">Install</h3>
                 <p className="text-gray-700">
@@ -100,8 +100,8 @@ export default function Home() {
               </div>
               
               <div className="bg-white p-8 rounded-xl shadow-md text-center">
-                <div className="bg-primary bg-opacity-10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <span className="text-primary text-2xl font-bold">2</span>
+                <div className="bg-teal bg-opacity-10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <span className="text-teal text-2xl font-bold">2</span>
                 </div>
                 <h3 className="text-xl font-bold mb-4">Analyze</h3>
                 <p className="text-gray-700">
@@ -110,8 +110,8 @@ export default function Home() {
               </div>
               
               <div className="bg-white p-8 rounded-xl shadow-md text-center">
-                <div className="bg-primary bg-opacity-10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <span className="text-primary text-2xl font-bold">3</span>
+                <div className="bg-teal bg-opacity-10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <span className="text-teal text-2xl font-bold">3</span>
                 </div>
                 <h3 className="text-xl font-bold mb-4">Monitor</h3>
                 <p className="text-gray-700">
@@ -129,7 +129,7 @@ export default function Home() {
         </section>
         
         {/* Mic-Drop Close Section */}
-        <section className="bg-dark text-white section-padding">
+        <section className="bg-charcoal text-soft-white section-padding">
           <div className="container-custom text-center">
             <h2 className="heading-lg mb-8">
               Don't just be searchable.<br />

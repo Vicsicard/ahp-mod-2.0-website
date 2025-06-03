@@ -42,20 +42,20 @@ export default function ScoreFAQ() {
   };
   
   return (
-    <section className="py-12 bg-gray-50">
+    <section className="py-12 bg-soft-white/50">
       <div className="container-custom">
         <h2 className="text-3xl font-bold text-center mb-10">Frequently Asked Questions</h2>
         
-        <div className="max-w-3xl mx-auto">
+        <div className="max-w-3xl mx-auto px-4 md:px-0">
           {faqItems.map((item, index) => (
             <div key={index} className="mb-4">
               <button
                 onClick={() => toggleFAQ(index)}
                 className="flex justify-between items-center w-full p-5 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200 focus:outline-none"
               >
-                <span className="font-medium text-left">{item.question}</span>
+                <span className="font-semibold text-left text-gray-900">{item.question}</span>
                 <svg
-                  className={`w-5 h-5 text-gray-500 transform transition-transform duration-200 ${
+                  className={`w-5 h-5 text-teal transform transition-transform duration-200 ${
                     openIndex === index ? 'rotate-180' : ''
                   }`}
                   fill="none"
@@ -73,7 +73,7 @@ export default function ScoreFAQ() {
               
               {openIndex === index && (
                 <div className="p-5 bg-white border-t border-gray-100 rounded-b-lg">
-                  <p className="text-gray-600">{item.answer}</p>
+                  <p className="text-gray-800">{item.answer}</p>
                 </div>
               )}
             </div>

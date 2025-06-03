@@ -1,6 +1,12 @@
 /* Import fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&family=DM+Serif+Display&family=Playfair+Display:wght@400;700&family=JetBrains+Mono:wght@400;700&display=swap');
 
+/* 
+ * Tailwind CSS Directives
+ * These are special directives processed by the Tailwind CSS framework.
+ * They may show as lint errors in some editors, but are required for Tailwind to work.
+ * @see https://tailwindcss.com/docs/functions-and-directives
+ */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -94,7 +100,7 @@ h6 {
 p {
   margin-bottom: 1rem;
   color: var(--soft-white);
-  opacity: 0.9;
+  opacity: 1; /* Increased from 0.9 for better readability */
 }
 
 a {
@@ -350,6 +356,45 @@ code {
   border: 1px solid rgba(69, 162, 158, 0.1);
 }
 
+/* Text gradient effect */
+.text-gradient {
+  background: linear-gradient(135deg, var(--teal) 0%, var(--violet) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
+
+/* Custom container for consistent layout */
+.container-custom {
+  width: 100%;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Section padding for consistent vertical spacing */
+.section-padding {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+@media (min-width: 768px) {
+  .section-padding {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .container-custom {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
 /* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
@@ -531,9 +576,4 @@ code {
   color: transparent;
 }
 
-.stagger-children > *:nth-child(1) { animation-delay: 0.1s; }
-.stagger-children > *:nth-child(2) { animation-delay: 0.2s; }
-.stagger-children > *:nth-child(3) { animation-delay: 0.3s; }
-.stagger-children > *:nth-child(4) { animation-delay: 0.4s; }
-.stagger-children > *:nth-child(5) { animation-delay: 0.5s; }
-.stagger-children > *:nth-child(6) { animation-delay: 0.6s; }
+/* Removing duplicate h1 style and animation delays that were already defined above */

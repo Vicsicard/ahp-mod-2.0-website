@@ -7,38 +7,38 @@ export default function SampleReport() {
     <section className="py-12 bg-white">
       <div className="container-custom">
         <h2 className="text-3xl font-bold text-center mb-8">Weekly AI Visibility Report</h2>
-        <p className="text-center text-gray-600 max-w-3xl mx-auto mb-10">
+        <p className="text-center text-gray-800 max-w-3xl mx-auto mb-10 px-4 md:px-0">
           Install AHP Module 2.0 and get detailed weekly reports showing exactly how AI systems are interacting with your content.
         </p>
         
-        <div className="bg-gradient-to-r from-gray-50 to-gray-100 rounded-xl shadow-lg p-6 md:p-8 max-w-4xl mx-auto border border-gray-200">
+        <div className="bg-gradient-to-r from-soft-white to-soft-white/80 rounded-xl shadow-lg p-6 md:p-8 max-w-4xl mx-4 md:mx-auto border border-teal/20">
           <div className="flex justify-between items-center border-b border-gray-200 pb-4 mb-6">
             <div>
               <h3 className="font-bold text-xl">AI Visibility Report</h3>
-              <p className="text-gray-500 text-sm">example.com • June 1, 2025</p>
+              <p className="text-gray-700 text-sm">example.com • June 1, 2025</p>
             </div>
-            <div className="bg-primary text-white px-3 py-1 rounded-full text-sm font-medium">
+            <div className="bg-gradient-to-r from-teal to-violet text-soft-white px-3 py-1 rounded-full text-sm font-medium">
               Premium
             </div>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 md:gap-6 mb-8">
             <div className="bg-white rounded-lg p-4 shadow-sm">
-              <div className="text-2xl font-bold text-primary mb-2">87%</div>
-              <div className="text-sm text-gray-600 mb-1">AI Visibility Score</div>
-              <div className="text-xs text-green-600">↑ 12% from last week</div>
+              <div className="text-2xl font-bold text-teal mb-2">87%</div>
+              <div className="text-sm text-gray-800 mb-1">AI Visibility Score</div>
+              <div className="text-xs font-medium text-green-700">↑ 12% from last week</div>
             </div>
             
             <div className="bg-white rounded-lg p-4 shadow-sm">
-              <div className="text-2xl font-bold text-primary mb-2">24</div>
-              <div className="text-sm text-gray-600 mb-1">AI Bot Visits</div>
-              <div className="text-xs text-green-600">↑ 8 from last week</div>
+              <div className="text-2xl font-bold text-teal mb-2">24</div>
+              <div className="text-sm text-gray-800 mb-1">AI Bot Visits</div>
+              <div className="text-xs font-medium text-green-700">↑ 8 from last week</div>
             </div>
             
             <div className="bg-white rounded-lg p-4 shadow-sm">
-              <div className="text-2xl font-bold text-primary mb-2">93%</div>
-              <div className="text-sm text-gray-600 mb-1">Content Indexed</div>
-              <div className="text-xs text-green-600">↑ 5% from last week</div>
+              <div className="text-2xl font-bold text-teal mb-2">93%</div>
+              <div className="text-sm text-gray-800 mb-1">Content Indexed</div>
+              <div className="text-xs font-medium text-green-700">↑ 5% from last week</div>
             </div>
           </div>
           
@@ -114,7 +114,7 @@ export default function SampleReport() {
             <Link href="/install" className="btn-primary inline-block">
               Get Your Weekly Report
             </Link>
-            <p className="text-sm text-gray-500 mt-3">
+            <p className="text-sm text-gray-700 mt-3">
               Install AHP Module 2.0 today and start monitoring your AI visibility
             </p>
           </div>

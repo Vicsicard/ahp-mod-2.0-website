@@ -8,7 +8,7 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="bg-charcoal/80 sticky top-0 z-50 border-b border-teal/10 backdrop-blur-lg shadow-lg">
+    <header className="bg-charcoal/90 sticky top-0 z-50 border-b border-teal/10 backdrop-blur-lg shadow-lg">
       <div className="container-custom py-4">
         <div className="flex justify-between items-center">
           <Link href="/" className="flex items-center space-x-3 group">
@@ -29,31 +29,31 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
-            <Link href="/" className="uppercase text-sm font-display text-soft-white/80 hover:text-teal transition-all duration-300 relative group">
+            <Link href="/" className="uppercase text-sm font-display text-soft-white hover:text-teal transition-all duration-300 relative group">
               <span className="relative inline-block">HOME</span>
               <span className="absolute -bottom-1 left-0 w-0 h-px bg-teal/50 transition-all duration-300 group-hover:w-full"></span>
             </Link>
-            <Link href="/solution" className="uppercase text-sm font-display text-soft-white/80 hover:text-teal transition-all duration-300 relative group">
+            <Link href="/solution" className="uppercase text-sm font-display text-soft-white hover:text-teal transition-all duration-300 relative group">
               <span className="relative inline-block">SOLUTION</span>
               <span className="absolute -bottom-1 left-0 w-0 h-px bg-teal/50 transition-all duration-300 group-hover:w-full"></span>
             </Link>
-            <Link href="/score" className="uppercase text-sm font-display text-soft-white/80 hover:text-teal transition-all duration-300 relative group">
+            <Link href="/score" className="uppercase text-sm font-display text-soft-white hover:text-teal transition-all duration-300 relative group">
               <span className="relative inline-block">AI VISIBILITY SCORE</span>
               <span className="absolute -bottom-1 left-0 w-0 h-px bg-teal/50 transition-all duration-300 group-hover:w-full"></span>
             </Link>
-            <Link href="/report-preview" className="uppercase text-sm font-display text-soft-white/80 hover:text-teal transition-all duration-300 relative group">
+            <Link href="/report-preview" className="uppercase text-sm font-display text-soft-white hover:text-teal transition-all duration-300 relative group">
               <span className="relative inline-block">REPORT PREVIEW</span>
               <span className="absolute -bottom-1 left-0 w-0 h-px bg-teal/50 transition-all duration-300 group-hover:w-full"></span>
             </Link>
-            <Link href="/about" className="uppercase text-sm font-display text-soft-white/80 hover:text-teal transition-all duration-300 relative group">
+            <Link href="/about" className="uppercase text-sm font-display text-soft-white hover:text-teal transition-all duration-300 relative group">
               <span className="relative inline-block">ABOUT</span>
               <span className="absolute -bottom-1 left-0 w-0 h-px bg-teal/50 transition-all duration-300 group-hover:w-full"></span>
             </Link>
-            <Link href="/contact" className="uppercase text-sm font-display text-soft-white/80 hover:text-teal transition-all duration-300 relative group">
+            <Link href="/contact" className="uppercase text-sm font-display text-soft-white hover:text-teal transition-all duration-300 relative group">
               <span className="relative inline-block">CONTACT</span>
               <span className="absolute -bottom-1 left-0 w-0 h-px bg-teal/50 transition-all duration-300 group-hover:w-full"></span>
             </Link>
-            <Link href="/changelog" className="uppercase text-sm font-display text-soft-white/80 hover:text-teal transition-all duration-300 relative group">
+            <Link href="/changelog" className="uppercase text-sm font-display text-soft-white hover:text-teal transition-all duration-300 relative group">
               <span className="relative inline-block">CHANGELOG</span>
               <span className="absolute -bottom-1 left-0 w-0 h-px bg-teal/50 transition-all duration-300 group-hover:w-full"></span>
             </Link>
@@ -113,49 +113,49 @@ const Header = () => {
           <nav className="md:hidden pt-6 pb-4 space-y-4 animate-fadeIn border-t border-teal/10 mt-4">
             <Link
               href="/"
-              className="block uppercase text-sm font-display text-soft-white/80 hover:text-teal transition-all duration-300 pl-3 border-l border-transparent hover:border-teal/50 py-2"
+              className="block uppercase text-sm font-display text-soft-white hover:text-teal transition-all duration-300 pl-3 border-l border-transparent hover:border-teal/50 py-2"
               onClick={() => setIsMenuOpen(false)}
             >
               HOME
             </Link>
             <Link
               href="/solution"
-              className="block uppercase text-sm font-display text-soft-white/80 hover:text-teal transition-all duration-300 pl-3 border-l border-transparent hover:border-teal/50 py-2"
+              className="block uppercase text-sm font-display text-soft-white hover:text-teal transition-all duration-300 pl-3 border-l border-transparent hover:border-teal/50 py-2"
               onClick={() => setIsMenuOpen(false)}
             >
               SOLUTION
             </Link>
             <Link
               href="/score"
-              className="block uppercase text-sm font-display text-soft-white/80 hover:text-teal transition-all duration-300 pl-3 border-l border-transparent hover:border-teal/50 py-2"
+              className="block uppercase text-sm font-display text-soft-white hover:text-teal transition-all duration-300 pl-3 border-l border-transparent hover:border-teal/50 py-2"
               onClick={() => setIsMenuOpen(false)}
             >
               AI VISIBILITY SCORE
             </Link>
             <Link
               href="/report-preview"
-              className="block uppercase text-sm font-display text-soft-white/80 hover:text-teal transition-all duration-300 pl-3 border-l border-transparent hover:border-teal/50 py-2"
+              className="block uppercase text-sm font-display text-soft-white hover:text-teal transition-all duration-300 pl-3 border-l border-transparent hover:border-teal/50 py-2"
               onClick={() => setIsMenuOpen(false)}
             >
               REPORT PREVIEW
             </Link>
             <Link
               href="/about"
-              className="block uppercase text-sm font-display text-soft-white/80 hover:text-teal transition-all duration-300 pl-3 border-l border-transparent hover:border-teal/50 py-2"
+              className="block uppercase text-sm font-display text-soft-white hover:text-teal transition-all duration-300 pl-3 border-l border-transparent hover:border-teal/50 py-2"
               onClick={() => setIsMenuOpen(false)}
             >
               ABOUT
             </Link>
             <Link
               href="/contact"
-              className="block uppercase text-sm font-display text-soft-white/80 hover:text-teal transition-all duration-300 pl-3 border-l border-transparent hover:border-teal/50 py-2"
+              className="block uppercase text-sm font-display text-soft-white hover:text-teal transition-all duration-300 pl-3 border-l border-transparent hover:border-teal/50 py-2"
               onClick={() => setIsMenuOpen(false)}
             >
               CONTACT
             </Link>
             <Link
               href="/changelog"
-              className="block uppercase text-sm font-display text-soft-white/80 hover:text-teal transition-all duration-300 pl-3 border-l border-transparent hover:border-teal/50 py-2"
+              className="block uppercase text-sm font-display text-soft-white hover:text-teal transition-all duration-300 pl-3 border-l border-transparent hover:border-teal/50 py-2"
               onClick={() => setIsMenuOpen(false)}
             >
               CHANGELOG
