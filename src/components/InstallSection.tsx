@@ -25,7 +25,12 @@ const InstallSection = () => {
                   <h3 className="font-display text-xl font-semibold text-soft-white mb-2">COPY THE CODE SNIPPET</h3>
                   <p className="mb-3 text-soft-white/80">Add the following script to the <code className="bg-charcoal px-2 py-1 rounded font-mono text-teal">&lt;head&gt;</code> of your website:</p>
                   <pre className="bg-charcoal p-5 rounded-lg mt-2 text-teal overflow-x-auto border border-teal/20 font-mono">
-                    &lt;script src="https://aihandshake.org/module/module.js" async&gt;&lt;/script&gt;
+                    &lt;script src="https://module-cdn-worker.vicsicard.workers.dev/module.js?v=2025-10-17-v2"
+        data-api-base="https://ahp-email-scheduler-production.vicsicard.workers.dev"
+        data-show-customer-code="true"
+        data-modal-title="Subscribe to AI Visibility Reports"
+        data-modal-description="Get weekly insights about AI crawlers visiting your site"&gt;
+&lt;/script&gt;
                   </pre>
                 </div>
               </li>
@@ -129,7 +134,12 @@ const InstallSection = () => {
   <title>Example Website</title>
 
   <!-- ✅ AI HANDSHAKE INSTALLED -->
-  <script src="https://aihandshake.org/module/module.js" async></script>
+  <script src="https://module-cdn-worker.vicsicard.workers.dev/module.js?v=2025-10-17-v2"
+          data-api-base="https://ahp-email-scheduler-production.vicsicard.workers.dev"
+          data-show-customer-code="true"
+          data-modal-title="Subscribe to AI Visibility Reports"
+          data-modal-description="Get weekly insights about AI crawlers visiting your site">
+  </script>
 
 </head>
 <body>

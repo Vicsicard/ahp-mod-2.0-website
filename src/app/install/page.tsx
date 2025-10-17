@@ -137,7 +137,12 @@ export default function InstallPage() {
     }
   }
   </script>
-  <script src="https://aihandshake.org/module/module.js" async></script>
+  <script src="https://module-cdn-worker.vicsicard.workers.dev/module.js?v=2025-10-17-v2"
+          data-api-base="https://ahp-email-scheduler-production.vicsicard.workers.dev"
+          data-show-customer-code="true"
+          data-modal-title="Subscribe to AI Visibility Reports"
+          data-modal-description="Get weekly insights about AI crawlers visiting your site">
+  </script>
 </head>
 <body>
   <header>
